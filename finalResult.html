@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Result Coming Soon</title>
+  <style>
+    /* Basic reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      color: #333;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: white;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #e74c3c;
+      margin-bottom: 20px;
+      animation: fadeIn 1s ease-out;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #7f8c8d;
+      margin-bottom: 40px;
+      animation: fadeIn 1.5s ease-out;
+    }
+
+    .coming-soon {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #3498db;
+      text-transform: uppercase;
+      animation: fadeIn 2s ease-out;
+    }
+
+    /* Keyframe animation for fading in */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Waiting for Results</h1>
+    <p>We are working hard on processing your exam results. Please wait a little longer!</p>
+    <div class="coming-soon">Results will be out soon!</div>
+  </div>
+
+</body>
+</html>
